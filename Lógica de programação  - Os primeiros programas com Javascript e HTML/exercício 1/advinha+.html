@@ -1,0 +1,19 @@
+<meta charset="UTF-8">
+
+<input/>
+<button onclick="verifica()">Comparte com o meu segredo</button>
+
+<script>
+
+    var segredo = 5;
+    var input = document.querySelector("input");
+   
+    function verifica(){
+            if (input.value == segredo){
+            alert("Voce Acertou!");
+        } else{
+            alert("Você Errou!");
+        }
+    }
+
+</script>
