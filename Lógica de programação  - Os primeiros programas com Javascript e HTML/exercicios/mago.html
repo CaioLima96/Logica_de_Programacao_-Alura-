@@ -1,0 +1,23 @@
+<meta charset="UFT-8">
+
+<script>
+
+    function pulaLinha(){
+        document.write("<br><br>")
+    }
+
+    function mostra(frase){
+        document.write(frase);
+        pulaLinha();
+    }
+
+    var idade = parseInt(prompt("Qual a sua idade?"));
+    var fogo = prompt("Sabe conjurar caixas e pontes? Responda S ou N");
+
+    if(idade >= 18 && fogo == "S"){
+        mostra("Ta dentro!");
+    }else{
+        mostra("Negado");
+    }
+
+</script>

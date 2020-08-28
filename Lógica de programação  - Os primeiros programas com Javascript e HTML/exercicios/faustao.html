@@ -1,0 +1,120 @@
+<meta charset="UFT-8">
+
+<script>
+
+    function pulaLinha(){
+        document.write("<br><br>")
+    }
+
+    function mostra(frase){
+        document.write("<big>" + frase + "</big>");
+        pulaLinha();
+    }
+
+    var tentativaAtual = 1;
+    var tentativaMaxima = 6;
+    var país = "Holanda";
+
+    while(tentativaAtual <= tentativaMaxima){
+
+        var dica1 = prompt("Dica nº1: É um país da Europa.");
+
+        if(dica1 == país){
+
+            alert("Parabains, você acertou!");
+            tentativaAtual = tentativaMaxima;
+            break;
+
+        }else{
+
+            alert("ERROOOOOOU!!!");
+
+        }
+
+//////////////////////////////////
+
+        var dica2 = prompt("Dica nº2: No passado invadiu o Brasil.");
+
+        if(dica2 == país){
+
+            alert("Parabains, você acertou!");
+            tentativaAtual = tentativaMaxima;
+            break;
+
+        }else{
+
+            alert("ERROOOOOOU!!!");
+
+        }
+
+//////////////////////////////////
+
+        var dica3 = prompt("Dica nº3: Terra das flores e dos moinhos de vento.");
+
+        if(dica3 == país){
+
+            alert("Parabains, você acertou!");
+            tentativaAtual = tentativaMaxima;
+            break;
+
+        }else{
+
+            alert("ERROOOOOOU!!!");
+
+        }
+
+//////////////////////////////////
+
+        var dica4 = prompt("Dica nº4: Tirou o Brasil da última copa.");
+
+        if(dica4 == país){
+
+            alert("Parabains, você acertou!");
+            tentativaAtual = tentativaMaxima;
+            break;
+
+        }else{
+
+            alert("ERROOOOOOU!!!");
+
+        }
+
+//////////////////////////////////
+
+        var dica5 = prompt("Dica nº5: No final da copa perdeu pra espanha.");
+
+        if(dica5 == país){
+
+            alert("Parabains, você acertou!");
+            tentativaAtual = tentativaMaxima;
+            break;
+
+        }else{
+         
+            alert("ERROOOOOOU!!!");
+            
+        }
+
+//////////////////////////////////
+
+        var dica6 = prompt("Dica nº6: Seu idioma é o Holandês.");
+
+        if(dica6 == país){
+
+            alert("Parabains, você acertou!");
+            tentativaAtual = tentativaMaxima;
+            break;
+
+        }else{
+
+                alert("ERROOOOOOU!!!");
+                mostra("<h1>NINGUÉM ACERTOU!!!<br><br>Isto é Incrível!!!</h1>");
+           
+        }
+        break;
+        
+    }
+
+   
+
+</script>

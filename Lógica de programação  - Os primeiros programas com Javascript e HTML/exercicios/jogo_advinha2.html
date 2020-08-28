@@ -1,0 +1,25 @@
+<meta charset="UFT-8">
+
+<script>
+
+    function pulaLinha(){
+        document.write("<br><br>")
+    }
+
+    function mostra(frase){
+        document.write("<big>" + frase + "</big>");
+        pulaLinha();
+    }
+
+    var nome = prompt("Qual o seu nome?")
+    var numeroPensado = Math.round(Math.random() * 100);
+    var chute = parseInt(prompt(nome + " digite um número: "));
+
+    if(numeroPensado == chute){
+        mostra("Parabains " + nome +"!, você acertou!");
+    }else{
+        mostra("Não consegue, né " + nome + "?");
+        mostra("O numero pensado foi: " + numeroPensado);
+    }
+
+</script>

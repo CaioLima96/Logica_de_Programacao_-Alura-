@@ -1,0 +1,23 @@
+<meta charset="UFT-8">
+
+<script>
+
+    function pulaLinha(){
+        document.write("<br><br>")
+    }
+
+    function mostra(frase){
+        document.write("<big>" + frase + "</big>");
+        pulaLinha();
+    }
+
+    var melhorAlien = "Diamante";
+    var qualAlien = prompt("Qual alien de ben 10 é o melhor?");
+
+    if(qualAlien == melhorAlien){
+        mostra("Isso aí, meu chapa!");
+    }else{
+        mostra("Errado! " + melhorAlien + " que é o melhor! Sai daqui fan do reboot!")
+    }
+
+</script>

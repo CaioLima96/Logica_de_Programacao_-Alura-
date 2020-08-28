@@ -1,0 +1,26 @@
+<meta charset="UTF-8">
+
+<script>
+
+    function pulaLinha(){
+        document.write("<br><br>")
+    }
+
+    function mostra(frase){
+        document.write("<big>" + frase + "</big>");
+        pulaLinha();
+    }
+
+    function somaIdade(idade1, idade2) {
+        return idade1 + idade2;
+        
+    }
+
+    var nome1 = prompt("Qual o seu nome?");
+    var idade1 = parseInt(prompt("Olá " + nome1 + "! Qual a sua idade?"));
+    var idade2 = parseInt(prompt(nome1 + ", informe a idade do seu/sua filha."));
+    var totalIdade1 = somaIdade(idade1, idade2);
+     
+    mostra(nome1 + " a soma das idades é: " + totalIdade1);
+
+</script>
